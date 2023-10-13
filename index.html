@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>project_4-Food_website_design</title>
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/google-fonts.css">
+	<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+
+	<section class="header">
+		<div class="container">
+			<div class="d-flex justify-content-between align-items-center">
+				<div class="logo">
+					<h3><i class="fa-solid fa-utensils"></i>𝓡𝓮𝓼𝓽𝓸</h3>
+				</div>
+				<div class="header-menu">
+					<ul class="navmenu">
+						<li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+						<li class="nav-item"><a href="#dishes" class="nav-link">Dishes</a></li>
+						<li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+						<li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+						<li class="nav-item"><a href="#review" class="nav-link">Review</a></li>
+						<li class="nav-item"><a href="#order" class="nav-link">Order</a></li>
+						<li class="nav-item"><a href="#contact" class="nav-link">contact</a></li>
+					</ul>
+				</div>
+				<div class="nav-icon d-flex justify-content-end align-items-center">
+					<i class="fa-solid fa-bars" id="menu-bars"></i>
+		        	<i class="fa-solid fa-magnifying-glass"></i>
+		        	<i class="fa-solid fa-heart"></i>
+		        	<i class="fa-solid fa-cart-shopping"></i>
+		    	</div>
+			</div>
+		</div>
+	</section>
+	<form action="https://www.google.com/search" method="get" id="search-form">
+		<input type="search" placeholder="search hear..." id="search-box" name="q">
+		<!-- <label for="search-box" class="fa fa-search"></label> -->
+		<button type="submit"><i class="fa fa-search"></i></button>
+		<i class="fa fa-close"></i>
+	</form>
+
+<!-- ================ banner slider part start ==================== -->
+	<section id="home" class="home">
+		<div class="container-fluid">
+			<div class="home-slider swiper mySwiper">
+				<div class="swiper-wrapper wrapper">
+
+					<div class="swiper-slide slide">
+						<div class="content">
+							<span>our special dish</span>
+							<h3>bargar</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Beatae nulla amet, quam?</p>
+							<a href="#" class="btn">Order now</a>
+						</div>
+						<div class="image">
+							<img src="img/bargar.webp" alt="">
+						</div>
+					</div>
+
+					<div class="swiper-slide slide">
+						<div class="content">
+							<span>our special dish</span>
+							<h3>chicken</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Beatae nulla amet, quam?</p>
+							<a href="#" class="btn">Order now</a>
+						</div>
+						<div class="image">
+							<img src="img/chicken.webp" alt="">
+						</div>
+					</div>
+
+					<div class="swiper-slide slide">
+						<div class="content">
+							<span>our special dish</span>
+							<h3>pizza</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Beatae nulla amet, quam?</p>
+							<a href="#" class="btn">Order now</a>
+						</div>
+						<div class="image">
+							<img src="img/pizza.webp" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+	</section>
+<!-- ================ banner slider part end ==================== -->
+
+<!-- ================ popular dishes part start ================== -->
+	<section id="dishes" class="dishes-part">
+		<div class="heading">
+			<h4>our dishes</h4>
+			<h1>popular dishes</h1>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-12 mb-lg-0 mb-4">
+					<div class="dishes-box mb-4">
+						<i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-eye"></i>
+						<div class="dishes-img">
+						   <img src="img/bargar.webp" alt="">
+						</div>
+						<h3>testy food</h3>
+						<div class="stars">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star-half-stroke"></i>
+						</div>
+						<span>$15.99</span>
+						<a href="#" class="btn">add to card</a>
+					</div>
+					<div class="dishes-box">
+						<i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-eye"></i>
+						<div class="dishes-img">
+						   <img src="img/pizza.webp" alt="">
+						</div>
+						<h3>testy food</h3>
+						<div class="stars">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star-half-stroke"></i>
+						</div>
+						<span>$15.99</span>
+						<a href="#" class="btn">add to card</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-12 mb-lg-0 mb-4">
+					<div class="dishes-box mb-4">
+						<i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-eye"></i>
+						<div class="dishes-img">
+						   <img src="img/pizza.webp" alt="">
+						</div>
+						<h3>testy food</h3>
+						<div class="stars">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star-half-stroke"></i>
+						</div>
+						<span>$15.99</span>
+						<a href="#" class="btn">add to card</a>
+					</div>
+					<div class="dishes-box">
+						<i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-eye"></i>
+						<div class="dishes-img">
+						   <img src="img/bargar.webp" alt="">
+						</div>
+						<h3>testy food</h3>
+						<div class="stars">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star-half-stroke"></i>
+						</div>
+						<span>$15.99</span>
+						<a href="#" class="btn">add to card</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-12">
+					<div class="dishes-box mb-4">
+						<i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-eye"></i>
+						<div class="dishes-img">
+						   <img src="img/bargar.webp" alt="">
+						</div>
+						<h3>testy food</h3>
+						<div class="stars">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star-half-stroke"></i>
+						</div>
+						<span>$15.99</span>
+						<a href="#" class="btn">add to card</a>
+					</div>
+					<div class="dishes-box">
+						<i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-eye"></i>
+						<div class="dishes-img">
+						   <img src="img/pizza.webp" alt="">
+						</div>
+						<h3>testy food</h3>
+						<div class="stars">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star-half-stroke"></i>
+						</div>
+						<span>$15.99</span>
+						<a href="#" class="btn">add to card</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- ================ popular dishes part end ==================== -->
+<!-- ================ about part start ==================== -->
+	<section id="about" class="about-part">
+		<div class="heading">
+			<h4>about us</h4>
+			<h1>why choose us?</h1>
+		</div>
+		<div class="container">
+			<div class="row d-flex align-items-center">
+				<div class="col-md-6 col-12 mb-md-0 mb-4">
+					<div class="about-img">
+						<img src="img/momo.webp" alt="">
+					</div>
+				</div>
+				<div class="col-md-6 col-12 mb-md-0 mb-4">
+					<div class="about-content">
+						<h4>best food in the country</h4>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Consequuntur, perferendis quae debitis at! Impedit ipsam, quam similique provident doloribus, laborum!</p>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Rerum amet quis, modi.</p>
+						<div class="row d-flex align-items-center">
+							<div class="col-md-4 col-sm-6 col-12">
+								<div class="about-icons text-center">
+							   		<i class="fa fa-cart-shopping"></i>
+							   		<span>free delivary</span>
+							   	</div>
+						    </div>
+						    <div class="col-md-4 col-sm-6 col-12">
+						    	<div class="about-icons text-center">
+							   		<i class="fa fa-dollar-sign"></i>
+							   		<span>easy payment</span>
+								</div>
+						    </div>
+						    <div class="col-md-4 col-12">
+						    	<div class="about-icons text-center">
+							   		<i class="fa fa-headset"></i>
+							   		<span>24/7 service</span>
+								</div>
+						    </div>
+						</div>
+						<a href="#" class="btn">learn more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- ================ about part end ==================== -->
+<!-- ================ todays dishes part start ================== -->
+	<section id="menu" class="menu-part">
+		<div class="heading">
+			<h4>our menu</h4>
+			<h1>today's speciality</h1>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-12 mb-lg-0 mb-4">
+					<div class="menu-box mb-4">
+						<div class="menu-image">
+						    <i class="fa fa-heart"></i>
+							<img src="img/menu_1.webp" alt="">
+						</div>
+						<div class="icons">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-stroke"></i>
+						</div>
+						<h6>delicious food</h6>
+						<p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Laborum, molestiae.</p>
+						<a href="#" class="btn">add to card</a>
+						<span class="price">$12.99</span>
+					</div>
+					<div class="menu-box">
+						<div class="menu-image">
+						    <i class="fa fa-heart"></i>
+							<img src="img/menu_2.webp" alt="">
+						</div>
+						<div class="icons">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-stroke"></i>
+						</div>
+						<h6>delicious food</h6>
+						<p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Laborum, molestiae.</p>
+						<a href="#" class="btn">add to card</a>
+						<span class="price">$12.99</span>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12 mb-lg-0 mb-4">
+					<div class="menu-box mb-4">
+						<div class="menu-image">
+						    <i class="fa fa-heart"></i>
+							<img src="img/menu_3.webp" alt="">
+						</div>
+						<div class="icons">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-stroke"></i>
+						</div>
+						<h6>delicious food</h6>
+						<p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Laborum, molestiae.</p>
+						<a href="#" class="btn">add to card</a>
+						<span class="price">$12.99</span>
+					</div>
+					<div class="menu-box">
+						<div class="menu-image">
+						    <i class="fa fa-heart"></i>
+							<img src="img/menu_1.webp" alt="">
+						</div>
+						<div class="icons">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-stroke"></i>
+						</div>
+						<h6>delicious food</h6>
+						<p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Laborum, molestiae.</p>
+						<a href="#" class="btn">add to card</a>
+						<span class="price">$12.99</span>
+					</div>
+				</div>
+				<div class="col-lg-4 col-12 menu-box-3">
+					<div class="menu-box mb-4">
+						<div class="menu-image">
+						    <i class="fa fa-heart"></i>
+							<img src="img/menu_1.webp" alt="">
+						</div>
+						<div class="icons">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-stroke"></i>
+						</div>
+						<h6>delicious food</h6>
+						<p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Laborum, molestiae.</p>
+						<a href="#" class="btn">add to card</a>
+						<span class="price">$12.99</span>
+					</div>
+					<div class="menu-box">
+						<div class="menu-image">
+						    <i class="fa fa-heart"></i>
+							<img src="img/menu_3.webp" alt="">
+						</div>
+						<div class="icons">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-stroke"></i>
+						</div>
+						<h6>delicious food</h6>
+						<p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Laborum, molestiae.</p>
+						<a href="#" class="btn">add to card</a>
+						<span class="price">$12.99</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- ================ todays dishes part end ==================== -->
+
+<!-- ================ review part start ==================== -->
+	<section id="review" class="review">
+		<div class="heading">
+			<h4>customer's review</h4>
+			<h1>what they say</h1>
+		</div>
+		<div class="container slide-container swiper">
+			<div class="review-slider">
+				<div class="swiper-wrapper card-wrapper">
+					<div class="swiper-slide slide">
+						<i class="fa-solid fa-quote-right"></i>
+						<div class="user">
+							<div class="user-img">
+								<img src="img/influencer-1.webp" alt="">
+							</div>
+							<div class="user-info">
+								<h3>john deo</h3>
+								<div class="icons">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-half-stroke"></i>
+								</div>
+							</div>
+						</div>
+						<p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Accusamus alias eius praesentium aspernatur consequatur laborum fuga fugiat, placeat minus! Vel, similique veritatis itaque officiis nesciunt aperiam dolor? Aliquid similique, earum.</p>
+					</div>
+					<div class="swiper-slide slide">
+						<i class="fa-solid fa-quote-right"></i>
+						<div class="user">
+							<div class="user-img">
+								<img src="img/influencer-1.webp" alt="">
+							</div>
+							<div class="user-info">
+								<h3>john deo</h3>
+								<div class="icons">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-half-stroke"></i>
+								</div>
+							</div>
+						</div>
+						<p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Accusamus alias eius praesentium aspernatur consequatur laborum fuga fugiat, placeat minus! Vel, similique veritatis itaque officiis nesciunt aperiam dolor? Aliquid similique, earum.</p>
+					</div>
+					<div class="swiper-slide slide">
+						<i class="fa-solid fa-quote-right"></i>
+						<div class="user">
+							<div class="user-img">
+								<img src="img/influencer-1.webp" alt="">
+							</div>
+							<div class="user-info">
+								<h3>john deo</h3>
+								<div class="icons">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-half-stroke"></i>
+								</div>
+							</div>
+						</div>
+						<p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Accusamus alias eius praesentium aspernatur consequatur laborum fuga fugiat, placeat minus! Vel, similique veritatis itaque officiis nesciunt aperiam dolor? Aliquid similique, earum.</p>
+					</div>
+					<div class="swiper-slide slide">
+						<i class="fa-solid fa-quote-right"></i>
+						<div class="user">
+							<div class="user-img">
+								<img src="img/influencer-1.webp" alt="">
+							</div>
+							<div class="user-info">
+								<h3>john deo</h3>
+								<div class="icons">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-half-stroke"></i>
+								</div>
+							</div>
+						</div>
+						<p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Accusamus alias eius praesentium aspernatur consequatur laborum fuga fugiat, placeat minus! Vel, similique veritatis itaque officiis nesciunt aperiam dolor? Aliquid similique, earum.</p>
+					</div>
+					<div class="swiper-slide slide">
+						<i class="fa-solid fa-quote-right"></i>
+						<div class="user">
+							<div class="user-img">
+								<img src="img/influencer-2.webp" alt="">
+							</div>
+							<div class="user-info">
+								<h3>john deo</h3>
+								<div class="icons">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-half-stroke"></i>
+								</div>
+							</div>
+						</div>
+						<p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Accusamus alias eius praesentium aspernatur consequatur laborum fuga fugiat, placeat minus! Vel, similique veritatis itaque officiis nesciunt aperiam dolor? Aliquid similique, earum.</p>
+					</div>
+				</div>
+		    </div>
+		</div>
+		 <div class="swiper-button-next"></div>
+    	<div class="swiper-button-prev"></div>
+    	<div class="swiper-pagination"></div>
+	</section>
+<!-- ================ review part end ==================== -->
+
+<!-- ================ form part start ==================== -->
+	<section id="order" class="order">
+		<div class="heading">
+			<h4>order now</h4>
+			<h1>free and fast</h1>
+		</div>
+		<div class="container">
+			<form action="">
+				<div class="input-box">
+					<div class="input">
+						<span>your name</span>
+						<input type="text" placeholder="enter your name">
+					</div>
+					<div class="input">
+						<span>your number</span>
+						<input type="number" placeholder="enter your number">
+					</div>
+					<div class="input">
+						<span>your order</span>
+						<input type="text" placeholder="enter food name">
+					</div>
+					<div class="input">
+						<span>additional food</span>
+						<input type="text" placeholder="extra with food">
+					</div>
+					<div class="input">
+						<span>how much</span>
+						<input type="text" placeholder="how many orders">
+					</div>
+					<div class="input">
+						<span>date and time</span>
+						<input type="datetime-local">
+					</div>
+				</div>
+				<div class="input-box">
+					<div class="input">
+						<span>your address</span>
+						<textarea name="" id="" placeholder="enter your address" cols="30" rows="10"></textarea>
+					</div>
+					<div class="input">
+						<span>your message</span>
+						<textarea name="" id="" placeholder="enter your massage" cols="30" rows="10"></textarea>
+					</div>
+				</div>
+				<input type="submit" class="btn">
+			</form>
+		</div>
+	</section>
+<!-- ================ form part end ==================== -->
+
+<!-- ================ footer part start ==================== -->
+	<section id="contact" class="footer-part">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3 col-sm-6 col-12 mb-xl-0 mb-4">
+					<h3>locations</h3>
+					<div class="footer-con">
+						<a href="#">india</a>
+						<a href="#">japan</a>
+						<a href="#">russia</a>
+						<a href="#">usa</a>
+						<a href="#">france</a>
+					</div>
+				</div>
+				<div class="col-xl-3 col-sm-6 col-12 mb-xl-0 mb-4">
+					<h3>ouick links</h3>
+					<div class="footer-con">
+						<a href="#home">home</a>
+						<a href="#dishes">dishes</a>
+						<a href="#about">about</a>
+						<a href="#menu">menu</a>
+						<a href="#review">review</a>
+						<a href="#order">order</a>
+					</div>
+				</div>
+				<div class="col-xl-3 col-sm-6 col-12 mb-xl-0 mb-4">
+					<h3>contact info</h3>
+					<div class="footer-con">
+						<a href="#">+12321409174</a>
+						<a href="#">+38904341657</a>
+						<a href="#">tashinahmed@gmail.com</a>
+						<a href="#">tashinahmed929@gmain.com</a>
+						<a href="#">brahmanbaria,
+						<a href="#">dhaka,bangladesh</a>
+					</div>
+				</div>
+				<div class="col-xl-3 col-sm-6 col-12">
+					<h3>follow us</h3>
+					<div class="footer-con">
+						<div class="">
+							<a href="#"><i class="fa-brands fa-facebook-f"></i>facebook</a>
+						</div>
+						<div class="">
+							<a href="#"><i class="fa-brands fa-twitter"></i>twitter</a>
+						</div>
+						<div class="">
+							<a href="#"><i class="fa-brands fa-instagram"></i>instagram</a>
+						</div>
+						<div class="">
+							<a href="#"><i class="fa-brands fa-linkedin-in"></i>linkedin</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+		</div>
+		<div class="copyright">
+			<p>copyright &copy 2023 by <span>tashin ahmed</span></p>
+		</div>
+	</section>
+<!-- ================ footer part end ==================== -->
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+	<script src="js/jquery-3.7.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.counterup.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

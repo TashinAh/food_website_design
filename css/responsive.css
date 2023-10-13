@@ -1,0 +1,95 @@
+@media screen and (max-width: 991px){
+	.nav-icon .fa-bars{
+		display: inherit;
+	}
+	.header{
+		position: relative;
+		position: sticky;
+	}
+	.header-menu{
+		top: 100%;
+		right: 0;
+		left: 0;
+		background: #fff;
+		border-top: .1rem solid rgba(0, 0, 0, .2);
+		position: absolute;
+		padding: 1rem;
+		z-index: 999;
+	}
+	.header-menu{
+		display: none;
+	}
+	.header-menu ul{
+		display: block;
+	}
+	.header-menu ul li{
+	}
+	.header-menu ul li a{
+		border-radius: 50px;
+		padding: .5rem;
+		margin: .5rem;
+		font-size: 1.2rem;
+		background: #eee;
+		text-align: center;
+	}
+	.nav-icon .fa-bars:click{
+		display: ;
+	}
+	#search-form{
+		height: 100vh;
+		width: 100%;
+	}
+	.home .home-slider .slide{
+		padding-top: 0rem;
+	}
+}
+@media screen and (max-width: 768px){
+	#search-form #search-box{
+		width: 90%;
+		margin: 0 1rem;
+	}
+}
+@media screen and (max-width: 576px){
+	.order form .input-box .input{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 430px){
+	.logo h3{
+		font-size: 20px;
+	}
+	.nav-icon i{
+		font-size: 14px;
+		width: 26px;
+		height: 26px;
+		margin-left: 12px;
+	}
+	.slide .content span{
+		font-size: 1.6rem;
+	}
+	.slide .content h3{
+		font-size: 3.6rem;
+	}
+	.btn{
+		font-size: 1.2rem;
+	}
+	.heading h4{
+		font-size: 1.7rem;
+	}
+	.heading h1{
+		font-size: 2.5rem;
+	}
+	.about-img{
+		width: 200px;
+	}
+}
+@media screen and (max-width: 320px){
+	.dishes-img{
+		width: 200px;
+	}
+	.review .slide .fa-quote-right{
+		top: 1rem;
+		right: 1rem;
+		font-size: 1.5rem;
+	}
+}
